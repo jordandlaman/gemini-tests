@@ -1,0 +1,8 @@
+{
+  "projectId": "ajjky2",
+  "baseUrl": "https://api.sandbox.gemini.com",
+  "env": {
+    "api-key": "account-NcXOzW1mvFyh3zbeTKX1",
+    "api-secret": "4J4RCiERGZCTk4yigmSV5L1RbVHt"
+  }
+}
