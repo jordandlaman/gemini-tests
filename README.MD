@@ -8,6 +8,7 @@ REQUIRED DEPS
 INSTALL INSTRUCTIONS
 ( This assumes you have node and npm already installed )
 
+* ```cd gemini-tests```
 * ```npm install```
 
 RUN INSTRUCTIONS
