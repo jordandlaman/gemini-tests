@@ -1,16 +1,22 @@
 {
-  "name": "gemini-tests",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "cypress:open": "./node_modules/.bin/cypress open",
-    "cypress:run": "./node_modules/.bin/cypress run --spec './cypress/integration/gemini/**'",
-    "cypress:ci": "./node_modules/.bin/cypress run --record --key e2425e15-1f4e-4ed2-a077-5db8256eb103"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "cypress": "^3.4.1"
-  }
+	"name": "gemini-tests",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"cypress:open": "./node_modules/.bin/cypress open",
+		"cypress:run": "./node_modules/.bin/cypress run --spec './cypress/integration/gemini/**'",
+		"cypress:ci": "./node_modules/.bin/cypress run --record --key e2425e15-1f4e-4ed2-a077-5db8256eb103"
+	},
+	"husky": {
+		"hooks": {
+			"pre-commit": "npm run cypress:ci"
+		}
+	},
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"cypress": "^3.4.1",
+		"husky": "^3.0.7"
+	}
 }
