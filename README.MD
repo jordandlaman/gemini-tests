@@ -1,5 +1,3 @@
-![](https://github.com/jordandlaman/gemini-tests/workflows/.github/workflows/github-ci.yml/badge.svg)
-
 **  TESTS RUN WITH CYPRESS.IO **
 
 REQUIRED DEPS
