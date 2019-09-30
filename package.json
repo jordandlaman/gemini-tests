@@ -10,7 +10,7 @@
 	},
 	"husky": {
 		"hooks": {
-			"pre-commit": "cypress:run"
+			"pre-commit": "npm run cypress:ci"
 		}
 	},
 	"author": "",
