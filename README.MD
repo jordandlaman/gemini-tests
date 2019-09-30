@@ -1,5 +1,3 @@
-![](https://github.com/jordandlaman/gemini-tests/workflows/.github/workflows/github-ci.yml/badge.svg)
-
 **  TESTS RUN WITH CYPRESS.IO **
 
 REQUIRED DEPS
@@ -17,7 +15,7 @@ RUN INSTRUCTIONS
 
 * ```npm run cypress:open``` opens the cypress gui which allows you more debugging access and browser access if we were interacting with front end tests
 * ```npm run cypress:run``` runs the tests headlessly
-* ```npm run cypress:ci``` runs the tests headlessly and pushes results + outputs (terminal and videos) to cypress.io dashboard (the project is public will need to login to view the dashboard)
+* ```npm run cypress:ci``` runs the tests headlessly and pushes results + outputs (terminal and videos) to cypress.io dashboard (the project is public and you will need to login to view the dashboard)
 
 
 THOUGHTS
